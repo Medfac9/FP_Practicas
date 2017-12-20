@@ -83,13 +83,14 @@ public:
         bool noEsMayuscula = false;
 
         for (int i = 0; i < total_utilizados; i ++) {
+            //bool ES_MAYUSCULA = vector_privado[i] >= 'A' && vector_privado[i] <= 'Z';
             if (vector_privado[i] < 'A' || vector_privado[i] > 'Z') {
                 noEsMayuscula = true;
             }
             else{
                 noEsMayuscula = false;
             }
-            
+            //bool ES_MINUSCULA = vector_privado[i] >= 'a' && vector_privado[i] <= 'z';
             if (vector_privado[i] < 'a' || vector_privado[i] > 'z') {
                 noEsMinuscula = true;
             }

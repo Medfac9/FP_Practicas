@@ -80,7 +80,7 @@ public:
     int cuentaPalabras(){
         int n_palabras = 0;
         
-        for (int i = 0; i < total_utilizados; i++){
+        for (int i = 0; i < total_utilizados-1; i++){
             if (vector_privado[i] == ' ' && vector_privado[i+1] != ' ') {
                 n_palabras ++;
             }
